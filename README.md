@@ -2,7 +2,8 @@ What will it do?
 The code will find out all the MAC addresses of the devices connected to the network your are connected to.
 
 It uses the broadcast packet and sends it to all the devices in the network to get response from the devices in your network.
-To use it change the subnet in the code to your device's IP and networks subnet otherwise it'll not work.
+And for that I used python's scapy library.
+To use the tool change the IP and subnet in the code to your device's IP and network's subnet otherwise it'll not work.
 
 Note: It only works in the same network.
 
